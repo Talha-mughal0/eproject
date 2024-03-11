@@ -1,0 +1,40 @@
+
+.navbar{
+    z-index: 1;
+    /* background-color:rgb(184, 110, 12); */
+    border: none;
+    font-family: 'Philosopher';
+    font-size: 18px;
+    font-weight: bolder;
+    background: transparent;
+  }
+  p{
+    color: rgb(255, 255, 255);
+  }
+
+#main-card{
+    background-color:rgb(209, 127, 202);
+    background: linear-gradient(0deg, rgb(196, 139, 206) 0%, rgba(210, 203, 146, 0.865) 100%);
+    width: 100%;
+}
+.card-img-top{
+    height: 200px;
+}
+.card-img-top:hover{
+    scale: 1.1;
+}
+.card-img-top{
+    height: 200px;
+    transition: all 1s;
+}
+.button{
+    text-align: center ;
+    border-radius: 50px;
+}
+.card{
+    text-align: center;
+    font-family: 'philosopher';
+}
+.card:hover{
+    box-shadow: 7px 10px 7px rgb(167, 161, 161);
+}

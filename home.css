@@ -1,0 +1,70 @@
+.navbar{
+    z-index: 1;
+    /* background-color:rgb(184, 110, 12); */
+    border: none;
+    font-family: 'Philosopher';
+    font-size: 18px;
+    font-weight: bolder;
+    background: transparent;
+  }
+  a{
+    color: rgb(255, 255, 255);
+  }
+  p{
+    color: rgb(255, 255, 255);
+  }
+
+
+video{
+    z-index:1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    
+  }
+
+
+/* swiper-container1{
+    position: relative;
+    height: 550px;
+    
+    
+  }
+swiper-container1
+  {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  swiper-container1 {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+*/
+  .backdrop{
+    font-family: 'philosopher';
+    background-image: url(./Images/contactbackdrop.jpg);
+    background-size: cover;
+    
+} 
